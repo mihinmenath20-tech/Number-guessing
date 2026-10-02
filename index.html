@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <style>
+        body {
+            background-color: #c6e368;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        input[type="number"] {
+            padding: 10px;
+            font-size: 16px;
+            width: 200px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+        }
+
+        #result {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #150101;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+ 
+    <h1>Guess The Number</h1>
+
+      <image src="https://i.pinimg.com/originals/79/9c/ad/799cadba6fbc20ded3d2050b597c05d3.jpg" alt="Guess The Number" width="300"></image>
+    <h3>Guess a Number 1-10</h3>
+    <input type="number" id="guess" placeholder="Enter 1 - 10">
+    <button onclick="checkGuess()">Guess</button>
+    <h2 id="result"></h2>
+
+    <script src="app.js"></script>
+</body>
+</html>
